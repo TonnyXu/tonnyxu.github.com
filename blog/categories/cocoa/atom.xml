@@ -1,111 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>Loving Cocoa | Tonny Xu</title>
-  <meta name="author" content="Tonny Xu">
-
-  
-  <meta name="description" content="[Last update: 2012-12-24] Foundation.framework is the most basic framework we use in almost all the iOS/Mac projects. If you can understand this &hellip;">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://TonnyXu.github.com/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="Loving Cocoa | Tonny Xu" type="application/atom+xml">
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-  
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-579328-7']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-
-
-</head>
-
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">Loving Cocoa | Tonny Xu</a></h1>
-  
-    <h2>Life is like a box of chocolates...</h2>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:TonnyXu.github.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[Category: Cocoa | Loving Cocoa | Tonny Xu]]></title>
+  <link href="http://TonnyXu.github.com/blog/categories/cocoa/atom.xml" rel="self"/>
+  <link href="http://TonnyXu.github.com/"/>
+  <updated>2012-12-24T17:32:39+09:00</updated>
+  <id>http://TonnyXu.github.com/</id>
+  <author>
+    <name><![CDATA[Tonny Xu]]></name>
     
-      <h1 class="entry-title"><a href="/2012/12/24/learning-foundation-dot-framework/">Learning Foundation.framework</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
-
-
-<time datetime="2012-12-24T19:20:00+09:00" pubdate data-updated="true">Dec 24<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><em>[Last update: 2012-12-24]</em></p>
+  <entry>
+    <title type="html"><![CDATA[Learning Foundation.framework]]></title>
+    <link href="http://TonnyXu.github.com/2012/12/24/learning-foundation-dot-framework/"/>
+    <updated>2012-12-24T19:20:00+09:00</updated>
+    <id>http://TonnyXu.github.com/2012/12/24/learning-foundation-dot-framework</id>
+    <content type="html"><![CDATA[<p><em>[Last update: 2012-12-24]</em></p>
 
 <p><code>Foundation.framework</code> is the most basic framework we use in almost all the iOS/Mac projects. If you can understand this framework well, it can save you a lot of time. Starting from today, I will try to start a new serial of posts about learning <code>Foundation.framework</code>.</p>
 
@@ -157,7 +70,7 @@
 
 <p>There are many classes and functions defined in <code>Foundation</code>. Understanding those classes one by one is key to accelerate your development of OSX/iOS apps.</p>
 
-<p>Apple&#8217;s development document already have some very good diagrams, which divided those classes into different groups by functionality.</p>
+<p>Apple's development document already have some very good diagrams, which divided those classes into different groups by functionality.</p>
 
 <h3><a id="class_figure"></a>Figure: The Foundation class hierarchy</h3>
 
@@ -181,7 +94,7 @@
 
 <h2><a id="post_organization"></a>The Organization of the Posts</h2>
 
-<p>Since there are so many different classes in the <code>Foundation</code>, it&#8217;s necessary to group my posts as <a href="#class_figure">the figure you see above</a>.</p>
+<p>Since there are so many different classes in the <code>Foundation</code>, it's necessary to group my posts as <a href="#class_figure">the figure you see above</a>.</p>
 
 <ol>
 <li>Value Objects</li>
@@ -204,7 +117,7 @@
 
 <h3>Asking for help</h3>
 
-<p>Since such kind of study is really huge and will cost a long time to archive the goal. I&#8217;m here to ask you to join the journey with me.</p>
+<p>Since such kind of study is really huge and will cost a long time to archive the goal. I'm here to ask you to join the journey with me.</p>
 
 <h4>How can you help</h4>
 
@@ -229,226 +142,7 @@
 <h2>License - Creative Common 3.0</h2>
 
 <p><a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Loving Cocoa</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://tonnyxu.github.com" property="cc:attributionName" rel="cc:attributionURL">Tonny Xu</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://tonnyxu.github.com" rel="dct:source">http://tonnyxu.github.com</a>.</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2012/11/21/finished-setting-up-octopress/">Finished Setting Up Octopress</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-11-21T17:51:00+09:00" pubdate data-updated="true">Nov 21<span>st</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h2>Knowing Octopress for a long time</h2>
-
-<p>I still remember the first time I saw a blog which is build on
-Octopress, I was so impressed that this blog system is neat and great
-for programmers. But it was built on Ruby, I just gave a thought and did
-not continue to setup one for myself. Until today, I tried hard to
-overcome a lot of wiered Ruby problem, and it is online now.</p>
-
-<h2>Reason for choosing Octopress</h2>
-
-<p>There are many other guys wrote a lot of wonderful posts on this topics.
-See
-<a href="http://oblita.com/blog/2012/07/06/octopress-with-mathjax-by-kramdown/">Chico</a>
-for his reason and tutorial. Especially when you want to use beautiful math
-expressions, read this. Other posts like
-<a href="http://akkunchoi.github.com/jekyll-github-blogging.html">akkunchoi</a> who
-built his blog system on Jekyll which is the base system of Octopress.
-Another guy <a href="http://blueplanet.github.com/blog/page/8/">BluePlanet</a> moved from Jekyll to Octopress. <a href="http://change-the-world.github.com/blog/2012/08/26/1/">Shun Matsumoto</a> also wrote a post in Japanese. If you&#8217;d like to read Japanese, it&#8217;s a good post.</p>
-
-<p>For me, the reason is simple.</p>
-
-<ol>
-<li>Octopress support git to manage the history of posts</li>
-<li>Octopress can be easily deployed to github, FREE</li>
-<li>Octopress support using markdown to write my posts, which is much
-more fun than HTML or any other markup language</li>
-</ol>
-
-
-<h2>What&#8217;s next?</h2>
-
-<p>Just keep on updating my blogs and bring you high quality posts on
-iOS/Mac/Web/HTML5 relates fields.</p>
-
-<p>Bon Voyage!</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/2012/12/24/learning-foundation-dot-framework/">Learning Foundation.framework</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/11/21/finished-setting-up-octopress/">Finished setting up Octopress</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/TonnyXu">@TonnyXu</a> on GitHub
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'TonnyXu',
-            count: 5,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("TonnyXu", 5, false);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <a href="http://twitter.com/TonnyXu" class="twitter-follow-button" data-show-count="false">Follow @TonnyXu</a>
-  
-</section>
-
-
-<section class="googleplus">
-  <h1>
-    <a href="https://plus.google.com/Ting Xu?rel=author">
-      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
-      Google+
-    </a>
-  </h1>
-</section>
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Tonny Xu -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
-
-<script type="text/javascript">
-      var disqus_shortname = 'TonnyXu';
-      
-        
-        var disqus_script = 'count.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
-
-
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) {return;}
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-
-
-  <script type="text/javascript">
-    (function() {
-      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
-      script.src = 'https://apis.google.com/js/plusone.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
-    })();
-  </script>
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
-</html>
+</feed>
