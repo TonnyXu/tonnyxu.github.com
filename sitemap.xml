@@ -2,18 +2,22 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://TonnyXu.github.com/2012/11/21/finished-setting-up-octopress/</loc>
-        <lastmod>2012-12-24T15:25:57+09:00</lastmod>
+        <lastmod>2012-12-24T17:35:46+09:00</lastmod>
     </url>
     <url>
         <loc>http://TonnyXu.github.com/2012/12/24/learning-foundation-dot-framework/</loc>
-        <lastmod>2012-12-24T17:29:07+09:00</lastmod>
+        <lastmod>2013-01-06T19:48:55+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TonnyXu.github.com/2013/02/10/nsstring-hash-function/</loc>
+        <lastmod>2013-02-11T01:35:44+09:00</lastmod>
     </url>
     <url>
         <loc>http://TonnyXu.github.com/blog/archives/</loc>
-        <lastmod>2012-12-24T17:29:07+09:00</lastmod>
+        <lastmod>2013-02-11T01:35:44+09:00</lastmod>
     </url>
     <url>
         <loc>http://TonnyXu.github.com/</loc>
-        <lastmod>2012-12-24T17:29:07+09:00</lastmod>
+        <lastmod>2013-02-11T01:35:44+09:00</lastmod>
     </url>
 </urlset>
