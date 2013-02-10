@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Foundation.framework | Loving Cocoa | Tonny Xu]]></title>
+  <title><![CDATA[Category: Foundation.framework | Learning notes for Foundation.framework | Tonny Xu]]></title>
   <link href="http://TonnyXu.github.com/blog/categories/foundation-framework/atom.xml" rel="self"/>
   <link href="http://TonnyXu.github.com/"/>
-  <updated>2013-02-11T01:42:55+09:00</updated>
+  <updated>2013-02-11T01:48:26+09:00</updated>
   <id>http://TonnyXu.github.com/</id>
   <author>
     <name><![CDATA[Tonny Xu]]></name>
